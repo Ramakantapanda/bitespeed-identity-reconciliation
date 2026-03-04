@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+// Using built-in fetch
 
 async function testIdentify(payload) {
     const res = await fetch('http://localhost:3000/identify', {
